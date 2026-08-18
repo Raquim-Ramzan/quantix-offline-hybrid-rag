@@ -1,0 +1,34 @@
+[
+  {
+    "corpus_entries": 1000000,
+    "corpus_label": "1M Records",
+    "naive_js_string_rss_gb": 0.42,
+    "kiwix_js_rss_gb": 0.18,
+    "libzim_cpp_rss_gb": 0.14,
+    "quantix_typed_array_rss_gb": 0.11
+  },
+  {
+    "corpus_entries": 5000000,
+    "corpus_label": "5M Records",
+    "naive_js_string_rss_gb": 1.28,
+    "kiwix_js_rss_gb": 0.44,
+    "libzim_cpp_rss_gb": 0.36,
+    "quantix_typed_array_rss_gb": 0.28
+  },
+  {
+    "corpus_entries": 15000000,
+    "corpus_label": "15M Records",
+    "naive_js_string_rss_gb": 2.94,
+    "kiwix_js_rss_gb": 0.92,
+    "libzim_cpp_rss_gb": 0.78,
+    "quantix_typed_array_rss_gb": 0.69
+  },
+  {
+    "corpus_entries": 27243180,
+    "corpus_label": "Full 27.2M Archive",
+    "naive_js_string_rss_gb": 4.85,
+    "kiwix_js_rss_gb": 1.45,
+    "libzim_cpp_rss_gb": 1.32,
+    "quantix_typed_array_rss_gb": 1.18
+  }
+]

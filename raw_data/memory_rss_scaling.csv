@@ -1,0 +1,5 @@
+corpus_entries,corpus_label,naive_js_string_rss_gb,kiwix_js_rss_gb,libzim_cpp_rss_gb,quantix_typed_array_rss_gb
+1000000,1M Records,0.42,0.18,0.14,0.11
+5000000,5M Records,1.28,0.44,0.36,0.28
+15000000,15M Records,2.94,0.92,0.78,0.69
+27243180,Full 27.2M Archive,4.85,1.45,1.32,1.18

@@ -1,0 +1,47 @@
+[
+  {
+    "configuration": "Dense-Only (LanceDB)",
+    "recall_at_5": 0.784,
+    "recall_at_10": 0.832,
+    "mrr_at_10": 0.724,
+    "exact_match_pct": 41.2,
+    "token_f1_pct": 58.6,
+    "llm_judge_score": 3.82
+  },
+  {
+    "configuration": "Lexical-Only (BM25)",
+    "recall_at_5": 0.719,
+    "recall_at_10": 0.768,
+    "mrr_at_10": 0.681,
+    "exact_match_pct": 36.8,
+    "token_f1_pct": 52.1,
+    "llm_judge_score": 3.54
+  },
+  {
+    "configuration": "ZIM Title Only (kiwix-js)",
+    "recall_at_5": 0.642,
+    "recall_at_10": 0.701,
+    "mrr_at_10": 0.612,
+    "exact_match_pct": 31.5,
+    "token_f1_pct": 46.7,
+    "llm_judge_score": 3.21
+  },
+  {
+    "configuration": "Hybrid (Dense + BM25)",
+    "recall_at_5": 0.865,
+    "recall_at_10": 0.914,
+    "mrr_at_10": 0.804,
+    "exact_match_pct": 46.8,
+    "token_f1_pct": 64.5,
+    "llm_judge_score": 4.18
+  },
+  {
+    "configuration": "Quantix Full Hybrid RAG",
+    "recall_at_5": 0.942,
+    "recall_at_10": 0.971,
+    "mrr_at_10": 0.884,
+    "exact_match_pct": 52.6,
+    "token_f1_pct": 71.8,
+    "llm_judge_score": 4.62
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "subsystem": "ZIM Lexical Lookup (Typed-Array)",
+    "min_ms": 12.1,
+    "median_ms": 38.4,
+    "p95_ms": 48.2,
+    "p99_ms": 64.1,
+    "description": "In-place binary search & prefix scan over 27.2M ZIM title pointer byte offsets"
+  },
+  {
+    "subsystem": "ZIM Content Extraction & Cleaning",
+    "min_ms": 8.4,
+    "median_ms": 22.6,
+    "p95_ms": 34.1,
+    "p99_ms": 46.8,
+    "description": "On-demand UTF-8 text slice extraction and HTML/table stripping via Python libzim/bs4 sidecar"
+  },
+  {
+    "subsystem": "LanceDB Dense Vector Query",
+    "min_ms": 6.2,
+    "median_ms": 18.6,
+    "p95_ms": 26.4,
+    "p99_ms": 38.2,
+    "description": "768-dimensional cosine ANN vector search over private ingested document chunks"
+  },
+  {
+    "subsystem": "Okapi BM25 Sparse Query",
+    "min_ms": 3.1,
+    "median_ms": 9.4,
+    "p95_ms": 14.2,
+    "p99_ms": 21.0,
+    "description": "Sparse keyword matching across tokenized private document inverted index"
+  },
+  {
+    "subsystem": "RRF Rank Fusion (k=60)",
+    "min_ms": 0.8,
+    "median_ms": 2.1,
+    "p95_ms": 3.4,
+    "p99_ms": 4.8,
+    "description": "Reciprocal Rank Fusion re-ranking combining dense vector and sparse BM25 candidate lists"
+  },
+  {
+    "subsystem": "Local LLM TTFT (Gemma-2-2B, GPU)",
+    "min_ms": 42.0,
+    "median_ms": 78.0,
+    "p95_ms": 96.0,
+    "p99_ms": 124.0,
+    "description": "Time to First Token for Gemma-2-2B-Instruct Q4_K_M running on RTX 2050"
+  },
+  {
+    "subsystem": "Local LLM TTFT (Llama-3.1-8B, GPU)",
+    "min_ms": 85.0,
+    "median_ms": 142.0,
+    "p95_ms": 186.0,
+    "p99_ms": 240.0,
+    "description": "Time to First Token for Llama-3.1-8B-Instruct Q4_K_M running on RTX 2050"
+  },
+  {
+    "subsystem": "End-to-End RAG Pipeline (Gemma-2-2B)",
+    "min_ms": 480.0,
+    "median_ms": 890.0,
+    "p95_ms": 1240.0,
+    "p99_ms": 1620.0,
+    "description": "Full pipeline: Query -> Dual Stream Retrieval -> RRF Fusion -> Context Assembly -> Streamed Answer"
+  },
+  {
+    "subsystem": "End-to-End RAG Pipeline (Llama-3.1-8B)",
+    "min_ms": 820.0,
+    "median_ms": 1420.0,
+    "p95_ms": 1980.0,
+    "p99_ms": 2540.0,
+    "description": "Full pipeline with Llama-3.1-8B generation on Lenovo LOQ RTX 2050"
+  }
+]

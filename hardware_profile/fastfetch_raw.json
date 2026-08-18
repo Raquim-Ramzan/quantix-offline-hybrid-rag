@@ -1,0 +1,138 @@
+[
+  {
+    "type": "Title",
+    "result": {
+      "userId": "S-1-5-21-2516861519-2212328062-1268692415-1001",
+      "userName": "Lenovo",
+      "fullUserName": "Raquim Ramzan",
+      "hostName": "RAQUIM",
+      "homeDir": "C:/Users/Raquim/",
+      "exePath": "C:/Users/Raquim/AppData/Local/Microsoft/WinGet/Packages/Fastfetch-cli.Fastfetch_Microsoft.Winget.Source_8wekyb3d8bbwe/fastfetch.exe",
+      "userShell": "",
+      "pid": 11840,
+      "cwd": "C:/Projects/Quantix/quantix-ai-interface/"
+    }
+  },
+  {
+    "type": "OS",
+    "result": {
+      "buildID": "",
+      "codename": "25H2",
+      "id": "Windows 11",
+      "idLike": "Windows",
+      "name": "Windows",
+      "prettyName": "Windows 11 Home Single Language (25H2)",
+      "variant": "Home Single Language",
+      "variantID": "",
+      "version": "11",
+      "versionID": ""
+    }
+  },
+  {
+    "type": "Host",
+    "result": {
+      "family": "LOQ 15IAX9E",
+      "name": "83LK",
+      "version": "LOQ 15IAX9E",
+      "sku": "LENOVO_MT_83LK_BU_idea_FM_LOQ 15IAX9E",
+      "vendor": "LENOVO",
+      "serial": "PF5KTXLY",
+      "uuid": "523358B0-C030-4EB2-A152-183D2D0DA4BC"
+    }
+  },
+  {
+    "type": "Kernel",
+    "result": {
+      "architecture": "x86_64",
+      "name": "WIN32_NT",
+      "release": "10.0.26200.8655",
+      "version": "26100.1.amd64fre.ge_release.240331-1435",
+      "pageSize": 4096
+    }
+  },
+  {
+    "type": "CPU",
+    "result": {
+      "cpu": "12th Gen Intel(R) Core(TM) i5-12450HX",
+      "vendor": "GenuineIntel",
+      "packages": 1,
+      "cores": {
+        "physical": 8,
+        "logical": 12,
+        "online": 12
+      },
+      "frequency": {
+        "base": 2688,
+        "max": 4400
+      },
+      "coreTypes": [],
+      "march": "x86_64-v3",
+      "numaNodes": 1
+    }
+  },
+  {
+    "type": "GPU",
+    "result": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 2050",
+        "type": "Discrete",
+        "vendor": "NVIDIA",
+        "driver": "32.0.16.1088",
+        "memory": {
+          "dedicated": {
+            "total": 4154458112,
+            "total_gb": 3.869
+          },
+          "shared": {
+            "total": 6297677824,
+            "total_gb": 5.865
+          }
+        },
+        "platformApi": "WDDM 3.2"
+      },
+      {
+        "index": 1,
+        "name": "Intel(R) UHD Graphics 770",
+        "type": "Integrated",
+        "vendor": "Intel",
+        "driver": "32.0.101.7080",
+        "memory": {
+          "dedicated": {
+            "total": 134217728,
+            "total_gb": 0.125
+          },
+          "shared": {
+            "total": 6297677824,
+            "total_gb": 5.865
+          }
+        },
+        "platformApi": "WDDM 3.2"
+      }
+    ]
+  },
+  {
+    "type": "Memory",
+    "result": {
+      "total": 12595355648,
+      "total_gb": 11.73,
+      "used": 11175497728
+    }
+  },
+  {
+    "type": "Disk",
+    "result": [
+      {
+        "bytes": {
+          "available": 31549263872,
+          "free": 31549263872,
+          "total": 466066468864,
+          "used": 434517204992
+        },
+        "filesystem": "NTFS",
+        "mountpoint": "C:\\",
+        "name": "Windows-SSD"
+      }
+    ]
+  }
+]
